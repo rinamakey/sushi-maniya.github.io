@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  background-color:  rgb(219, 217, 217);
+}
+.adres{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(219, 217, 217);
+  padding: 20px;
+}
+
+.categories{
+  display: flex;
+  justify-content:center;
+  width: 20%;
+}
+.category{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.sushi{
+  width: 100%;
+  height: 350px;
+  background-image: url(sushi-2.jpg);
+  background: -webkit-linear-gradient(rgba(51, 34, 34, 0.4));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  background-attachment: fixed;
+  position: relative;
+}
+.sushi .paralax{
+  position: absolute;
+  bottom:5%;
+  left:3%;
+  color:aliceblue;
+  font-size: 50px;
+  text-shadow: 1px 2px 2px  black;
+}
+.cartmenu{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+img{
+  width: 530px;
+  height: 290px;
+  object-fit: cover;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 8px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: cover;
+  margin-top: 20px;
+  width: 79%;
+}
+.cartIcon{
+  width: 35px;
+  height: 35px;
+  background-color: #faf0a1;
+}
+.cart{
+  font-size: 30px;
+
+}
+.categoryButtonSelected{
+  background-color: rgb(16, 237, 101);
+
+}
+.categoryButtonSelected:hover{
+  background-color:rgb(16, 237, 101);
+}
+.categoryButton{
+  cursor: pointer;
+  padding: 10px;
+  margin: 15px;
+  border: 1px rgb(108, 105, 105) solid;
+  border-radius: 4px;
+  width: 80%;
+  text-align: center;
+  font-size: 22px;
+}
+.categoryButton:hover{
+  background-color: #fdeb6b;
+}
+.icon{
+  width:25px;
+  height: 25px;
+}
+.icon:hover{
+  background-color: #faf0a1;
+}
+.total{
+  text-decoration: underline ;
+}
+button{
+  background-color: #fdeb6b;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 2px;
+}
+button:hover{
+  background-color:  #30e032;
+}
+.btn{
+  background-color: #fdeb6b;
+  font-size: 14px;
+}
+.btn:hover{
+  background-color:  #30e032;
+}
+
+
