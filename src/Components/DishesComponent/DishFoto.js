@@ -12,7 +12,7 @@ const [quantity,setQuantity] = useState(1);
 const dispatch = useDispatch();
 
     return(
-            <div className="container">
+            <div  className="container">
                 <img src={`${dishfoto.img}.jpg`} alt="fotos"/>
                 <h2>{dishfoto.name}</h2>
                 <h6>состав: {dishfoto.compound}</h6>
