@@ -21,7 +21,9 @@ body{
   background-color: rgb(219, 217, 217);
   padding: 20px;
 }
-
+h1{
+  color:#30e032;
+}
 .categories{
   display: flex;
   justify-content:center;
@@ -129,4 +131,27 @@ button:hover{
   background-color:  #30e032;
 }
 
+
+@media (max-width:900px){
+  .adres{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  h1{
+    color:#30e032;
+  }
+  .sushi .paralax{
+    font-size: 25px;
+  }
+  .categoryButton{
+    font-size: 13px;
+    margin: 1px;
+    flex-wrap: wrap;
+  }
+  .cartmenu{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 
