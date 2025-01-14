@@ -82,7 +82,11 @@ img{
 }
 .cart{
   font-size: 30px;
-
+}
+.carttotal{
+  background-color: #faf0a1;
+  padding: 10px;
+  border-radius: 8px;
 }
 .categoryButtonSelected{
   background-color: rgb(16, 237, 101);
@@ -104,9 +108,14 @@ img{
 .categoryButton:hover{
   background-color: #fdeb6b;
 }
+h5{
+  font-size: 17px;
+}
+
 .icon{
   width:25px;
   height: 25px;
+  background-color: #a8f6aa;
 }
 .icon:hover{
   background-color: #faf0a1;
